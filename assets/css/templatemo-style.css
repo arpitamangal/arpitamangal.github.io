@@ -40,14 +40,14 @@ a:hover {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #D3D3D3;
 }
 
 
 h4 {
-    font-size: 26px;
+    font-size: 21px;
     font-weight: 700;
     color: #D3D3D3;
     letter-spacing: 0.25px;
@@ -295,13 +295,13 @@ html {
     left: 35%;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 40px 40px;
 }
 
 .section-heading h2 {
@@ -518,6 +518,28 @@ button:hover {
     transition: all 0.5s;
 }
 
+
+
+.service-item .service-icon {
+    display: inline-block;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    font-size: 25px;
+}
+
+.service-item li a{
+    color: #D3D3D3;
+}
+
+
+.service-item li a:hover {
+    color: #3f95a4;
+}
+
+
+/* 
 .service-item:hover {
     background-color: rgba(250, 250, 250, 1);
 }
@@ -530,47 +552,7 @@ button:hover {
     color: #4a4a4a;
 }
 
-.service-item .service-icon {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    margin-bottom: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-}
-
-.service-item .first-service-icon {
-    background-image: url(../images/first-white-icon.png);
-}
-
-.service-item:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.png);
-}
-
-.service-item .second-service-icon {
-    background-image: url(../images/second-white-icon.png);
-}
-
-.service-item:hover .second-service-icon {
-    background-image: url(../images/second-main-icon.png);
-}
-
-.service-item .third-service-icon {
-    background-image: url(../images/third-white-icon.png);
-}
-
-.service-item:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
-}
-
-.service-item .fourth-service-icon {
-    background-image: url(../images/fourth-white-icon.png);
-}
-
-.service-item:hover .fourth-service-icon {
-    background-image: url(../images/fourth-main-icon.png);
-}
+*/
 
 
 /* My Work */
@@ -630,7 +612,6 @@ section.my-work .section-heading {
     position: relative;
     width: 48%;
     margin: 1%;
-    
     padding-bottom: 30px;
     margin-bottom: 30px;
     padding-left: 15px;
