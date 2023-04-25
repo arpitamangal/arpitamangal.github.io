@@ -429,10 +429,10 @@ button:hover {
 .timeline-item::after {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 8px;
   left: -33px;
-  height: 6px;
-  width: 6px;
+  height: 7px;
+  width: 7px;
   background: #3f95a4;
   border-radius: 50%;
   box-shadow: 0 0 0 4px #D3D3D3;
