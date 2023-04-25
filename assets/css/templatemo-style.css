@@ -42,22 +42,15 @@ a:hover {
 p {
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
+    color: #D3D3D3;
 }
 
-p:hover {
-    color: #3f95a4;
-}
 
 h4 {
     font-size: 26px;
     font-weight: 700;
-    color: #fff;
+    color: #D3D3D3;
     letter-spacing: 0.25px;
-}
-
-h4:hover {
-    color: #3f95a4;
 }
 
 img {
@@ -80,6 +73,8 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
 
 *,
 *:before,
@@ -126,7 +121,7 @@ html {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
+    color: #D3D3D3;
     width: 100%;
     transition: all 0.5s;
     border-top: 1px solid rgba(250, 250, 250, 0.1);
@@ -134,7 +129,7 @@ html {
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    background: #fff;
+    background: #D3D3D3;
     color: #3f95a4;
 }
 
@@ -162,7 +157,7 @@ html {
 .menu .author-content span {
     font-size: 13px;
     font-style: italic;
-    color: #fff;
+    color: #D3D3D3;
 }
 
 .menu .social-network {
@@ -181,13 +176,13 @@ html {
     text-align: center;
     line-height: 20px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #D3D3D3;
     font-size: 15px;
     transition: all 0.5s;
 }
 
 .menu .social-network ul li a:hover {
-    background-color: #fff;
+    background-color: #D3D3D3;
     color: #3f95a4;
 }
 
@@ -251,7 +246,7 @@ html {
 }
 
 .menu-toggle {
-  color: #fff;
+  color: #D3D3D3;
   cursor: pointer;
   font-size: 25px;
   position: fixed;
@@ -266,7 +261,7 @@ html {
     top: 0;
     left: 0;
     color: #3f95a4;
-    background-color: #fff;
+    background-color: #D3D3D3;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -282,7 +277,7 @@ html {
     cursor: pointer;
     text-align: right;
     color: #3f95a4;
-    background-color: #fff;
+    background-color: #D3D3D3;
     width: 100%;
     height: 60px;
     text-align: center;
@@ -294,7 +289,7 @@ html {
 /* Section */
 
 .section {
-    color: #fff;
+    color: #D3D3D3;
     width: 55%;
     right: 10%;
     left: 35%;
@@ -312,7 +307,7 @@ html {
 .section-heading h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color: #D3D3D3;
 }
 
 .section-heading .line-dec {
@@ -325,9 +320,24 @@ html {
 .section-heading span {
     margin-top: 5px;
     font-size: 16px;
-    color: #fff;
+    color: #D3D3D3;
     letter-spacing: 0.5px;
 }
+
+.section-heading span a {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #D3D3D3;
+    letter-spacing: 0.5px;
+}
+
+.section-heading span a:hover{
+    margin-top: 5px;
+    font-size: 16px;
+    color:#3f95a4;
+    letter-spacing: 0.5px;
+}
+
 
 
 /* Buttons */
@@ -335,7 +345,7 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
+    background-color: #D3D3D3;
     color: #3f95a4;
     font-size: 13px;
     font-weight: 800;
@@ -346,14 +356,14 @@ html {
 
 .white-button a:hover {
     background-color: #3f95a4;
-    color: #fff;
+    color: #D3D3D3;
 }
 
 
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #D3D3D3;
     color: #3f95a4;
     font-size: 12px;
     font-weight: 800;
@@ -368,8 +378,67 @@ button {
 button:hover {
     outline: none;
     background-color: #3f95a4;
-    color: #fff;
+    color: #D3D3D3;
 }
+
+/* Timeline */
+
+.timeline { margin-bottom: 20px; }
+
+.timeline .title-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-list {
+  font-size: 15px;
+  margin-left: 45px;
+}
+
+.timeline-item { position: relative; }
+
+.timeline-item:not(:last-child) { margin-bottom: 20px; }
+
+.timeline-item-title {
+  color: #3f95a4;
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+
+.timeline-list span {
+  color: #D3D3D3;
+  line-height: 1.6;
+}
+
+.timeline-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -30px;
+  width: 1px;
+  height: calc(100% + 20px);
+  background: #D3D3D3;
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -33px;
+  height: 6px;
+  width: 6px;
+  background: #3f95a4;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #D3D3D3;
+}
+
+.timeline-text {
+  color: #D3D3D3;
+  line-height: 1.6;
+}
+
 
 
 /* Left & Right Post */
@@ -390,15 +459,41 @@ button:hover {
     margin-top: 30px;
 }
 
+
 .right-image-post p,
 .left-image-post p {
     margin-top: 20px;
+}
+
+.right-text p:hover,
+.left-text p:hover{
+    color: #3f95a4;
+}
+
+
+.right-text h4:hover,
+.left-text h4:hover{
+    color: #3f95a4;
 }
 
 .right-image-post .white-button,
 .left-image-post .white-button {
     margin-top: 30px;
 }
+
+.skill-text {
+    padding: 10px 10px 10px 10px;
+    background-color: #36454F;
+    color: #D3D3D3;
+    font-size: 15px;
+}
+
+
+.right-image-post .skill-text,
+.left-image-post .skill-text {
+    margin-top: 10px;
+}
+
 
 /* Services */
 
@@ -408,8 +503,9 @@ button:hover {
 }
 
 .service-item {
-    margin-bottom: 10px;
-    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
 }
@@ -438,7 +534,7 @@ button:hover {
     width: 70px;
     height: 70px;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s;
@@ -481,7 +577,7 @@ button:hover {
 
 section.my-work .section-heading {
     text-align: center;
-    padding: 80px 45px 50px 45px;
+    padding: 40px 40px 20px 40px;
 }
 
 .isotope-wrapper {
@@ -522,12 +618,12 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar p {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #D3D3D3;
     padding-top: 15px;
 }
 
 .isotope-toolbar a {
-    color: #fff;
+    color: #D3D3D3;
 }
 
 .isotope-item {
@@ -597,10 +693,10 @@ figure.snip1321 i {
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
-  color: #fff;
+  color: #D3D3D3;
 }
 figure.snip1321:after {
-  background-color: #ffffff;
+  background-color: #D3D3D3fff;
   position: absolute;
   content: "";
   display: block;
@@ -651,7 +747,7 @@ section.contact-me {
     border: 1px solid rgba(250,250,250,1);
     border-radius: 0px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #D3D3D3;
     font-size: 14px;
     height: 40px;
     line-height: 40px;
@@ -669,7 +765,7 @@ section.contact-me {
     border: 1px solid rgba(250,250,250,1);
     border-radius: 0px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #D3D3D3;
     font-size: 14px;
     height: 180px;
     max-height: 220px;
@@ -693,7 +789,7 @@ section.contact-me {
     }
 
     .section {
-        color: #fff;
+        color: #D3D3D3;
         width: 65%;
         right: 5%;
         left: 30%;
