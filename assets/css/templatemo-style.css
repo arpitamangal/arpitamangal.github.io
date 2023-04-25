@@ -151,17 +151,17 @@ html {
 }
 
 .menu .author-content h4 {
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 .menu .author-content span {
-    font-size: 13px;
+    font-size: 15px;
     font-style: italic;
     color: #D3D3D3;
 }
 
 .menu .social-network {
-    margin-top: 40px;
+    margin-top: 65px;
     margin-bottom: 5px;
 }
 
@@ -186,18 +186,17 @@ html {
     color: #3f95a4;
 }
 
-.menu .copyright-text {
+.menu .signature-text {
     position: relative;
 }
 
-.menu .copyright-text p {
+.menu .signature-text p {
     display: inline-block;
     width: 100%;
-    font-size: 13px;
+    font-size: 14px;
 }
 
-.menu .copyright-text p a:hover {
-    background-color: #000;
+.menu .signature-text p a:hover {
     color: #3f95a4;
 }
 
@@ -391,6 +390,11 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.timeline .title-wrapper h4 {
+  font-size: 24px;
+  color: #D3D3D3;
+}
+
 .timeline-list {
   font-size: 15px;
   margin-left: 45px;
@@ -401,8 +405,8 @@ button:hover {
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
 .timeline-item-title {
-  color: #3f95a4;
-  font-size: 15px;
+  color: #D3D3D3;
+  font-size: 18px;
   line-height: 1.3;
   margin-bottom: 7px;
 }
@@ -538,21 +542,34 @@ button:hover {
     color: #3f95a4;
 }
 
-
-/* 
 .service-item:hover {
-    background-color: rgba(250, 250, 250, 1);
+    background-color: #D3D3D3;
 }
 
 .service-item:hover h4 {
-    color: #1e1e1e;
+    color: #000;
 }
 
 .service-item:hover p {
-    color: #4a4a4a;
+    color: #000;
 }
 
-*/
+.service-item:hover vl li {
+    color: #000;
+}
+
+.service-item:hover vl li a {
+    color: #000;
+}
+
+.service-item:hover vl li a:hover {
+    color: #3f95a4;
+}
+
+.service-item:hover .service-icon{
+    font-size: 25px;
+    color: #000;
+}
 
 
 /* My Work */
