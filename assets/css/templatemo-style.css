@@ -196,6 +196,10 @@ html {
     font-size: 14px;
 }
 
+.menu .signature-text p i {
+    padding: 5px;
+}
+
 .menu .signature-text p a:hover {
     color: #3f95a4;
 }
@@ -464,10 +468,29 @@ button:hover {
     margin-top: 10px;
 }
 
+.right-image-post h4 a,
+.left-image-post h4 a {
+    margin-top: 10px;
+    color: #D3D3D3;
+
+}
+
+.right-image-post h4 a:hover,
+.left-image-post h4 a:hover {
+    color: #3f95a4;
+}
+
 
 .right-image-post p,
 .left-image-post p {
     margin-top: 20px;
+    
+}
+
+
+.right-text h4:hover,
+.left-text h4:hover{
+    color: #3f95a4;
 }
 
 .right-text p,
@@ -476,17 +499,25 @@ button:hover {
 }
 
 
+.right-text span,
+.left-text span {
+    color: #D3D3D3;
+}
 
-.right-text p:hover,
-.left-text p:hover{
+.right-text span a,
+.left-text span a{
     color: #3f95a4;
 }
 
-
-.right-text h4:hover,
-.left-text h4:hover{
+.right-text span a:hover,
+.left-text span a:hover{
     color: #3f95a4;
 }
+
+.project-title i {
+    padding-right: 10px;
+}
+
 
 .right-image-post .white-button,
 .left-image-post .white-button {
